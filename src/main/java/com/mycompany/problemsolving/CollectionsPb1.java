@@ -12,6 +12,6 @@ public class CollectionsPb1 {
         Collections.addAll(list,names);
         Collections.sort(list);
         System.out.println(list);
-
+        
     }
 }
