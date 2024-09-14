@@ -1,0 +1,48 @@
+1) is map allows duplicate keys. prove it using your own example?
+Answer:Map do not allow duplicate keys.We know map store key-values in same pairs.Where keys must be unique.
+If we want add any duplicate keys but if values are different,then keys will show in output only updated
+values.
+Example:
+        HashMap<Integer, String> wordCount = new HashMap<>();
+
+        wordCount.put(1,"Nipa");
+        wordCount.put(2,"kibria");
+        wordCount.put(1,"Sheikh");
+        System.out.println(wordCount);
+
+
+ we saw there is two keys are same but values are different.In map do not allow dupliate keys but they
+ only take last and upadted keys value.
+ Output:1=Sheikh, 2=kibria
+
+
+
+2) is map allows duplicate values even the key is same. prove it using your own example?
+Answer:
+Yes, Map allow duplicate values,But must be keys different.
+We know in map keys must be unique.
+example:
+ Map<Integer, String> names2 = new HashMap<Integer, String>();
+
+        names2.put(5, "Nipa");
+        names2.put(6, "Kibria");
+        names2.put(7, "Sheikh");
+        names2.put(8, "Nipa");
+        System.out.println(names2);
+ Output:{5=Nipa, 6=Kibria, 7=Sheikh, 8=Nipa}
+we saw in map, allows duplicate values but keys must be different.
+
+
+3) is map maintain insert order ? as like if you put 1,2,3....100 sequentially in a map,
+    after print the map the result is the result is sequential as like how you insert.
+    prove it using your own example.
+ Answer:HashMap does not maintain insertion order but LinkedHashmap maintain in insertion order.
+
+
+4) print all odd and even number between 1....100 using Map.
+Answer:
+
+
+5) assume you have an array int arr = {1,2,3,4,2,5,6,7,84,2,2,8} print all even number and all duplicate item
+    from the array using Map.
+   Answer:
