@@ -8,7 +8,7 @@ Example:
         wordCount.put(1,"Nipa");
         wordCount.put(2,"kibria");
         wordCount.put(1,"Sheikh");
-        System.out.println(wordCount);
+        System.out.println(wordCount):
 
 
  we saw there is two keys are same but values are different.In map do not allow dupliate keys but they
