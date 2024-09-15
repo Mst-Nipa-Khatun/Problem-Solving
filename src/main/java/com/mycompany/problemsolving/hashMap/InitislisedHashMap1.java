@@ -12,6 +12,5 @@ public class InitislisedHashMap1 {
         map.put(4, "four");
         map.put(5, "five");
         System.out.println(map);
-        System.out.println(map.size());
     }
 }
