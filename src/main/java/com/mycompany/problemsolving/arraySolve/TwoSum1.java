@@ -12,7 +12,7 @@ public class TwoSum1 {
                 if (a[i] + a[j] == target) {
                     a2[0] = i;
                     a2[1] = j;
-                    //System.out.println(a[i] + " " + a[j]);
+                    System.out.println(a[i] + " " + a[j]);
                     break;
                 }
             }
