@@ -10,7 +10,11 @@ public class KeyContainInMap11 {
         hm.put(2, "two");
         hm.put(3, "three");
         hm.put(4, "four");
-        System.out.println(hm);
+        hm.put(1,"One extra");
+        System.out.println(hm.get(1));
+        hm.remove(2);
+        System.out.println(hm.get(2));
+
 
         System.out.println(hm.keySet());
 

@@ -11,7 +11,7 @@ public class MapToMapConvert6 {
         map.put(3, "three");
         map.put(4, "four");
         System.out.println(map);
-         Map<Integer, String> map2 = map;
-         System.out.println(map2);
+        Map<Integer, String> map2 = map;
+        System.out.println(map2);
     }
 }

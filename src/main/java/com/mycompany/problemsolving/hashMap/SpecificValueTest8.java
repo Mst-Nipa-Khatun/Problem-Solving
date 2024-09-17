@@ -12,7 +12,7 @@ public class SpecificValueTest8 {
         map.put(4, "four");
         System.out.println(map);
 
-        boolean b= map.containsValue("two");
+        boolean b= map.containsValue("two"); //loop create
         System.out.println(b);
 
         boolean b1= map.containsValue("six");
