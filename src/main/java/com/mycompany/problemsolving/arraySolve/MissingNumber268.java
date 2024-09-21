@@ -11,7 +11,7 @@ public class MissingNumber268 {
         int val = n * (n + 1) / 2; //1*(1+1)/2=1,2*(2+2)/2=4
         int sum = 0;
         for (int num : nums) { //0
-            sum += num;  //num=1
+            sum += num;  //num=1+
         }
         int a= val-sum; //6-4=2
         System.out.println(a);
