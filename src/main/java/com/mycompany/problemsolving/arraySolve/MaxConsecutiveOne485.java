@@ -10,7 +10,9 @@ public class MaxConsecutiveOne485 {
             if (num == 1) {
                 currentCount++;
                 maxCount=Math.max(maxCount, currentCount);//max=0,current=1
-            } else {
+            }
+            else
+            {
                 currentCount = 0;
             }
         }
