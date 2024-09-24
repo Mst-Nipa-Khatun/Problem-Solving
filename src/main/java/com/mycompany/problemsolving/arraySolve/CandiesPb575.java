@@ -11,7 +11,8 @@ public class CandiesPb575 {
         int n = arr.length / 2;
 
         for (int i = 1; i < arr.length && count < n; i++) {
-            if (arr[i] != arr[i - 1]) {
+            if (arr[i] != arr[i - 1])
+            {
                 count++;
             }
         }
