@@ -9,6 +9,7 @@ public class ReshapeMatrix566 {
 
             int[][] result = matrixReshape(mat, r, c);
             System.out.println("Reshaped Matrix:");
+
             for (int[] row : result)
             {
                 System.out.print(Arrays.toString(row));
