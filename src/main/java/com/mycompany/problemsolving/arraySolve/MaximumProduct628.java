@@ -10,7 +10,7 @@ public class MaximumProduct628 {
         int max2 = Integer.MIN_VALUE;
         int max3 = Integer.MIN_VALUE;
         int[] nums = {-1, -2, -3};
-        for (final int num : nums) {
+        for ( int num : nums) {
             if (num <= min1) {
                 min2 = min1;
                 min1 = num;

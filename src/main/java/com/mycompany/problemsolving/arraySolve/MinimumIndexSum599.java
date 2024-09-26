@@ -8,7 +8,7 @@ public class MinimumIndexSum599 {
         String val = "null";
         for (int i = 0; i < list1.length; i++) {
             if (list1[i].equals(list2[i])) {
-                val = list1[i]+list2[i];
+                //val = list1[i]+list2[i];
                 System.out.println(list1[i]);
             }
         }
