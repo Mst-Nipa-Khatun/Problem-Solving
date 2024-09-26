@@ -14,13 +14,24 @@ public class KeyboardRow500 {
 
         for (String word : words) {
             String lowerWord = word.toLowerCase();
-//            if(words==row1)
+//            if(word==row1)
 //                validWords.add(lowerWord);
-            if(word.equals(row1) || word.equals(row2) || word.equals(row3))
+
+            if (word.equals(row1) && word.equals(row2) && word.equals(row3))
+//                if(row1.equals(words))
+//                {
+//                    System.out.println("word: " + word);
+//                }
+                if (word.equals(row1)) {
+                    System.out.println(word);
+                } else if (word.equals(row2)) {
+                    System.out.println(word);
+                } else {
+                    System.out.println(word);
+                }
                 validWords.add(word);
-                validWords.add(word);
-            }
-        System.out.println(validWords);
         }
+        System.out.println(validWords);
     }
+}
 
