@@ -11,7 +11,7 @@ public class ContainsDuplicateII219 {
             for (int j = i + 1; j <= i + k && j < nums.length; j++) {// j=1,nums[1]=2 No match;
                 // j=2,nums[2]=3,no match;j=3,nums[3]=1;match
                 // because i from nums[0]=1;so(abs(3 - 0) = 3, which satisfies <= k)
-                if (nums[i] == nums[j]) {//nums[0]=nums[3] match
+                if (nums[i] == nums[j]) {//nums[0]=nums[3] match true
                     System.out.println(true);
                     return;
                 }
