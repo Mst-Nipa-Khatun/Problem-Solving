@@ -4,28 +4,32 @@ import java.util.ArrayList;
 
 public class FindSmallest744 {
     public static void main(String[] args) {
-        String[] letters = {"c", "f", "j"};
-        String target = "a";
-        target = target.toUpperCase(); //upper kore nilam
+        char[] letters = {'x', 'x', 'y','y'};
+        char target = 'z';
 
-        ArrayList<String> values = new ArrayList<>();
+        //String[] letters = {"c", "f", "j"};
+        //String target="a";
 
-        for (String letter : letters) {
-            values.add(letter.toUpperCase());
+        ArrayList<Character> values = new ArrayList<>();
+
+        for (char letter : letters) {
+            values.add(letter);
+           // values.add(letter.toUpperCase()); // sob letters upper kore nilam
         }
+       // target = target.toUpperCase(); //upper kore nilam
 
-        String smallest = null;
 
-        for (String letter : values) {
-            if (letter.compareTo(target) > 0 && (smallest == null ||
-                    letter.compareTo(smallest) < 0)) {
+        char smallest = 0;
+
+        for (char letter : values) {
+            if (letter == target && letter==smallest || smallest==0) {
                 smallest = letter;
             }
         }
-
-        if (smallest == null) {
+        if (smallest == 0) {
             System.out.println("No greater letter ");
         } else {
             System.out.println(smallest);
         }
-    }}
+    }
+}
