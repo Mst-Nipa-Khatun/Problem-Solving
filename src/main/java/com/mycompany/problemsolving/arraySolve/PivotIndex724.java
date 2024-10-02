@@ -17,7 +17,7 @@ public class PivotIndex724 {
             if (leftsum == rightsum) {
                 System.out.println(nums[j]);
             }else{
-                //
+                //how to return
             }
         }
         System.out.println(rightsum);
