@@ -4,6 +4,7 @@ public class BinarySearch704 {
     public static void main(String[] args) {
         //int array declare
         //target value in binary method
+        //find out mid value if target value >< mid thn move.
         //loop check if value in this array print index number
         //if not found number in this array return -1.
 
@@ -20,7 +21,7 @@ public class BinarySearch704 {
                 left = mid + 1;
             }
         }
-      //  System.out.println(nums[left] == target ? left : -1);
+       System.out.println(nums[left] == target ? left : -1);
 //            if (nums[left] == target) {
 //                System.out.println(nums[left]);
 //            } else {
