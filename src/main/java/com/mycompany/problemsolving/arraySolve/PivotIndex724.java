@@ -6,18 +6,30 @@ public class PivotIndex724 {
         int rightsum = 0;
         int leftsum = 0;
 
+
         for (int i = 0; i < nums.length; i++) {
-            rightsum = rightsum+nums[i];
+            int currentLeft = nums[i];
+            leftsum += currentLeft;
+            rightsum += nums[(nums.length-1) - i];
+            if (currentLeft == rightsum) {
+
+            }
+        }
+
+
+        for (int i = 0; i < nums.length; i++) {
+            rightsum = rightsum + nums[i];
         }
 
         for (int j = nums.length - 1; j > 0; j--) {
-            leftsum=leftsum+nums[j];
-            rightsum=rightsum-nums[j];
+            leftsum = leftsum + nums[j];
+            rightsum = rightsum - nums[j];
 
             if (leftsum == rightsum) {
                 System.out.println(nums[j]);
-            }else{
+            } else {
                 //how to return
+                System.out.println(-1);
             }
         }
         System.out.println(rightsum);
