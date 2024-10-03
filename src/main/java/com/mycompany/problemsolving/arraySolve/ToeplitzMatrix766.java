@@ -3,7 +3,7 @@ package com.mycompany.problemsolving.arraySolve;
 public class ToeplitzMatrix766 {
     public static void main(String[] args) {
         int[][] matrix = {{1, 2, 3, 4}, {5, 1, 2, 3}, {9, 5, 1, 2}};
-        //System.out.println(ToeplitzMatrixmethod(matrix);
+        System.out.println(ToeplitzMatrixmethod(matrix));
     }
 
     public static boolean ToeplitzMatrixmethod(int[][] matrix) {
