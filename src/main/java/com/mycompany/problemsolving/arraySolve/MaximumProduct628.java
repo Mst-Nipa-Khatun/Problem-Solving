@@ -4,6 +4,7 @@ import static java.lang.Math.max;
 
 public class MaximumProduct628 {
     public static void main(String[] args) {
+        //unclear
         int min1 = Integer.MAX_VALUE;
         int min2 = Integer.MAX_VALUE;
         int max1 = Integer.MIN_VALUE;
