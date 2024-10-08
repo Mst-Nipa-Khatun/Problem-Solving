@@ -10,6 +10,8 @@ public class LargestNumberLeastTwice747 {
         //sei max k full array te j value gulo ase double hoy kina check kora
         //double hole return 1 otherwise return -1.
 
+
+        //incomplete
         //int[] nums = {3,6,1,0};
         int[] nums = {3,4,1,7};
         int max=0;
