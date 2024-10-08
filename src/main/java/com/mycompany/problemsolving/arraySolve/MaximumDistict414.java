@@ -8,16 +8,14 @@ public class MaximumDistict414 {
 
         if (arr_size < 3) {
             System.out.printf(" Invalid Input ");
-
         }
-
         int first = arr[0];
         for (int i = 1; i < arr_size; i++)
             if (arr[i] > first) {
                 first = arr[i];
 
             }
-        int second = Integer.MIN_VALUE;
+        int second = Integer.MIN_VALUE; // help from google
         for (int i = 0; i < arr_size; i++)
             if (arr[i] > second && arr[i] < first) {
                 second = arr[i];
