@@ -17,6 +17,7 @@ public class ContainsDuplicateII219 {
         for (int i = 0; i < nums.length; i++) {
             Integer value = map.get(nums[i]);
             if (value != null) {
+
                if ((i - value) <= k)
                    return true;
             }
