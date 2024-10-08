@@ -17,8 +17,6 @@ public class FindSmallest744 {
            // values.add(letter.toUpperCase()); // sob letters upper kore nilam
         }
        // target = target.toUpperCase(); //upper kore nilam
-
-
         char smallest = 0;
 
         for (char letter : values) {
