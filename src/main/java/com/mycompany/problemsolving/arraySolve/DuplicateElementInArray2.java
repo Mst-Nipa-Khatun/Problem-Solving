@@ -9,17 +9,9 @@ public class DuplicateElementInArray2 {
             for (int j = i + 1; j < arr.length; j++) {
                 if (arr[i] == arr[j]) {
                     System.out.print(" " + arr[j]);
-
-//                    if (arr[i] != arr[i - 1]) {
-//                        arr[k] = arr[i];
-//                        k++;
-
-
                 }
-
             }
-
         }
-
-    }}
+    }
+}
 
