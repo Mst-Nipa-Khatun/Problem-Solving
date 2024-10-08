@@ -2,7 +2,7 @@ package com.mycompany.problemsolving.arraySolve;
 
 public class LemonadeChange860 {
     public static void main(String[] args) {
-        int[] bills = {5,5,5,10,20};
+        int[] bills = {5,5,10,10,20};
         int fives = 0;
         int tens = 0;
 
@@ -25,5 +25,6 @@ public class LemonadeChange860 {
             }
         }
         System.out.println(true);
+
     }
 }
