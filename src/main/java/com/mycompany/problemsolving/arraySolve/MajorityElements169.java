@@ -3,8 +3,6 @@ package com.mycompany.problemsolving.arraySolve;
 public class MajorityElements169 {
     public static void main(String[] args) {
 
-        //@INFO hoi nai eta bhalo kore pb dekho
-
         int[] nums1 = {2, 2, 1, 1, 1, 2, 2};
         int[] arr2 = new int[nums1.length];
 
