@@ -16,6 +16,9 @@ public class SortArrayByParity905 {
                 odd--;
             }
         }
-        System.out.println(nums2);
+        for(int num : nums2) {
+            System.out.print(num + " ");
+        }
+        //System.out.println(nums2);
     }
 }
