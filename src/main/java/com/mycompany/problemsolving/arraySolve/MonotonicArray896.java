@@ -19,7 +19,9 @@ public class MonotonicArray896 {
             if (nums[i] > nums[i - 1]) { //2>(2-1)=2>1,4>(4-1)=4>3,3>(3-1)=3>2
                 decreasing=false; //not decreasing
             }
-
+            if (!increasing && !decreasing) {
+                return false;
+            }
         }
         return true;
     }
