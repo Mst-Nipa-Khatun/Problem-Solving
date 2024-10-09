@@ -8,7 +8,6 @@ public class Transposematrix867 {
             for (int j = 0; j < matrix[0].length; j++) {
                 transpose[i][j] = matrix[j][i];
                 System.out.print(transpose[i][j] + " ");
-                // System.out.print("\n");
             }
             System.out.println(" ");
         }
