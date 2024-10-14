@@ -1,10 +1,10 @@
-package com.mycompany.problemsolving.arraySolve;
+ package com.mycompany.problemsolving.arraySolve;
 
 public class SortArrayByParity905 {
     public static void main(String[] args) {
         int[] nums = {3, 1, 2, 4};
         int[] nums2 = new int[nums.length];
-        int count = 0, even = 0, odd = nums.length - 1;
+        int  even = 0, odd = nums.length - 1;
 
         for (int i = 0; i < nums.length; i++) {
             if (nums[i] % 2 == 0) {
