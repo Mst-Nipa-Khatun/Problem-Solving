@@ -17,6 +17,7 @@ public class SortArraybyParityTwo922 {
             }
         }
         for (int num : nums2) {
+
             System.out.print(num + " ");
         }
     }
