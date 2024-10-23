@@ -1,0 +1,41 @@
+package com.thinkconstructive.rest_demo.service.impl;
+
+import com.thinkconstructive.rest_demo.model.CloudVender;
+import com.thinkconstructive.rest_demo.repository.CloudVenderRepository;
+import com.thinkconstructive.rest_demo.service.CloudVenderService;
+
+import java.util.List;
+
+public class CloudVenderServiceImpl implements CloudVenderService {
+    CloudVenderRepository cloudVenderRepository;
+
+    public CloudVenderServiceImpl(CloudVenderRepository cloudVenderRepository) {
+        this.cloudVenderRepository = cloudVenderRepository;
+    }
+
+
+    @Override
+    public String getCloudVender() {
+        return null;
+    }
+
+    @Override
+    public String updateCloudVender() {
+        return null;
+    }
+
+    @Override
+    public String deleteCloudVender() {
+        return null;
+    }
+
+    @Override
+    public List<CloudVender> getCloudVenders() {
+        return List.of();
+    }
+
+    @Override
+    public String createCloudVender() {
+        return null;
+    }
+}
