@@ -8,7 +8,7 @@ public class AddedInArrayListPb6 {
         list.add("A");
         list.add("B");
         list.add("C");
-        System.out.println(list);
+        System.out.println(list);//print list
 
     }
 }
