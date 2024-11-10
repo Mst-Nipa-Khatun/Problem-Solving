@@ -10,11 +10,9 @@ public class Student {
     private String Address;
     private List<String> phoneNumbers;
 
-
     public String getName() {
         return name;
     }
-
     public void setName(String name) {
         this.name = name;
     }
