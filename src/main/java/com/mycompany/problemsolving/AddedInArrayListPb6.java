@@ -1,4 +1,5 @@
 package com.mycompany.problemsolving;
+
 import java.util.ArrayList;
 
 public class AddedInArrayListPb6 {
