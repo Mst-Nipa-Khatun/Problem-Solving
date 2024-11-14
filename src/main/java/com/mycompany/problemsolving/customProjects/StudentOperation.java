@@ -4,7 +4,6 @@ import java.util.ArrayList;
 import java.util.List;
 
 public class StudentOperation {
-
     public List<Student> getAllStudents() {
         List<Student> students = new ArrayList<>();
 
