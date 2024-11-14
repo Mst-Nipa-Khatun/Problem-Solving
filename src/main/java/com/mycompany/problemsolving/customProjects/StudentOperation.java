@@ -6,7 +6,6 @@ import java.util.List;
 public class StudentOperation {
     public List<Student> getAllStudents() {
         List<Student> students = new ArrayList<>();
-
         //@INFO Now going to create indivisual student and add to students list
         Student student1 = new Student();
         student1.setName("Nipa");
